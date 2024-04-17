@@ -1,4 +1,4 @@
-package no.liven.banenor.backend.kafka;
+package no.liven.banenor.backend.train;
 
 import lombok.Getter;
 import lombok.Setter;

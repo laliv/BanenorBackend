@@ -1,5 +1,6 @@
-package no.liven.banenor.backend.kafka;
+package no.liven.banenor.backend.infrastructure;
 
+import no.liven.banenor.backend.kafka.Producer;
 import org.springframework.stereotype.Service;
 
 @Service

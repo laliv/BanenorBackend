@@ -1,5 +1,7 @@
 package no.liven.banenor.backend.kafka;
 
+import no.liven.banenor.backend.train.Train;
+import no.liven.banenor.backend.train.TrainMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -8,7 +10,7 @@ import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
 
 @Service
-public class Consumer implements MessageValidator, TrainMessage{
+public class Consumer implements MessageValidator, TrainMessage {
 
     private Train train;
 

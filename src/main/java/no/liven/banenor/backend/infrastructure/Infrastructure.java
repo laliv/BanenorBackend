@@ -1,9 +1,10 @@
-package no.liven.banenor.backend.kafka;
+package no.liven.banenor.backend.infrastructure;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Getter;
+import no.liven.banenor.backend.train.Train;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.io.IOException;

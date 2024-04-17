@@ -1,7 +1,7 @@
 package no.liven.banenor.backend.kafka;
 
+import no.liven.banenor.backend.train.EngineDiagnostics;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -25,7 +25,8 @@ public class ApplicationConfiguration {
         return gpsLocation;
     }
 
-    @Bean EngineDiagnostics getEngine(){
+    @Bean
+    EngineDiagnostics getEngine(){
         return new EngineDiagnostics();
     }
 

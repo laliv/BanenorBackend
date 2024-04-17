@@ -1,5 +1,8 @@
 package no.liven.banenor.backend.kafka;
 
+import no.liven.banenor.backend.infrastructure.Infrastructure;
+import no.liven.banenor.backend.infrastructure.InfrastructureProducer;
+import no.liven.banenor.backend.train.Train;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

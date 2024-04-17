@@ -1,4 +1,4 @@
-package no.liven.banenor.backend.kafka;
+package no.liven.banenor.backend.infrastructure;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

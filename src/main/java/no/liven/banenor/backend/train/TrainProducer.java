@@ -1,9 +1,10 @@
-package no.liven.banenor.backend.kafka;
+package no.liven.banenor.backend.train;
 
+import no.liven.banenor.backend.kafka.Producer;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TrainProducer extends Producer{
+public class TrainProducer extends Producer {
 
     public String produceJson(Train train){
         return Train.Serialize(train);

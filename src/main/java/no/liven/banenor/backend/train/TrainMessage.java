@@ -1,4 +1,4 @@
-package no.liven.banenor.backend.kafka;
+package no.liven.banenor.backend.train;
 
 public interface TrainMessage {
 

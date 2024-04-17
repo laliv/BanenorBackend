@@ -1,9 +1,10 @@
 package no.liven.banenor.backend.kafka;
 
+import no.liven.banenor.backend.train.Train;
+import no.liven.banenor.backend.train.TrainProducer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
 import org.springframework.kafka.listener.MessageListenerContainer;
 import org.springframework.kafka.support.KafkaHeaders;
